@@ -6,21 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main.css">
-    <title>Flow</title>
+    <title>Flow </title>
 </head>
 
-<body onload="move('element')">
+<body>
     <section class="all-cards">
-        <div class="card-left">
-            <button class="button1">teste1</button>
-            <button>teste2</button>
+        <div class="card-top">
+            <button class="button1"><img src="../images/phone.png" alt="phone icon"></button>
         </div>
-        <div class="card-right">
-            <div id="element" class="element"></div>
+        <div class="card-bottom">
+
         </div>
     </section>
 
-    <script src="../scripts/main.js"></script>
+
+    <div id="modal-menu" class="modal-container">
+        <div class="modal">
+            <button class="close">x</button>
+            <div class="menu">
+                <div class="photo"></div>
+                <div>
+                    <p>New Menu</p>
+                </div>
+            </div>
+            <hr>
+            <div class="transfer">
+                <div class="photo"></div>
+                <p>External Transfer</p>
+            </div>
+            <hr>
+            <div class="directory">
+                <div class="photo"></div>
+                <p>Directory</p>
+            </div>
+            <hr>
+            <div class="voicemail">
+                <div class="photo"></div>
+                <p>Voicemail</p>
+            </div>
+            <hr>
+            <div class="extension">
+                <div class="photo"></div>
+                <p>Extesion</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../scripts/createDiv.js"></script>
 </body>
 
 </html>
